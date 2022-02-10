@@ -1,0 +1,15 @@
+:root{
+    --azul-escuro: rgb(0, 74, 128);
+    --azul-medio: rgb(0, 143, 190);    
+    --azul-claro: rgb(8, 160, 218);
+    --branco: white;
+    --cinza-escuro1: rgb(128, 128, 128);
+    --cinza-escuro2: rgb(174, 170, 170);
+    --cinza-medio: rgb(236, 236, 236);
+    --cinza-claro: rgb(246, 246, 246);    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
