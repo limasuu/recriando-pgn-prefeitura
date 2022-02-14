@@ -36,8 +36,89 @@ a{
     text-decoration: none;
 }
 /* --------------------------------------------------------- */
-header{border:1px solid RED;background-color: coral;
+header{
     grid-area: header;
+    display: flex;
+    flex-direction: column;
+}
+
+header a{
+    color: var(--branco);
+}
+
+.topo{     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--azul-medio);
+    color: var(--branco);
+}
+
+.acessibilidade{
+    display: flex; 
+    width: 30vw;
+
+    font-weight: 700;
+}
+
+.acessibilidade p{
+    margin: 5px;
+}
+
+.acessibilidade p:first-of-type{ 
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-servicos{
+    max-height: 45px;
+    margin: 10px;
+}
+
+.acesso{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 10px 0 20px 0;
+}
+
+.acessibilidade a, .acesso a, .nav-principal a{
+    transition: .4s;
+}
+
+.acessibilidade a:hover, .acesso a:hover, .nav-principal a:hover{
+    opacity: 0.7;
+    transition: .4s;
+}
+
+.acesso>a{
+    font-size: smaller;
+    padding-left: 20px; 
+}
+
+.acesso i{
+    font-size: xx-large;
+    margin: 2px;
+}
+
+.midias{
+    border-left: 1px solid var(--branco);
+    padding: 0 0 5px 15px;     
 }
 /* --------------------------------------------------------- */
 .nav-secundaria{border:1px solid RED;background-color: coral;
