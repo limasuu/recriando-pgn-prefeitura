@@ -198,8 +198,18 @@ header a{
     transition: .4s;
 }
 /* --------------------------------------------------------- */
-.aside1{border:1px solid RED;background-color: coral;
-    grid-area: aside1;
+.aside1{    
+    grid-area: aside1;    
+}
+
+.aside1 img{
+    max-width: 170px;
+    border: 1px solid var(--cinza-escuro2);
+    transition: .4s;
+}
+
+.aside1 img:hover{
+    border: 1px solid var(--azul-claro);
 }
 /* --------------------------------------------------------- */
 .aside2{border:1px solid RED;background-color: coral;
