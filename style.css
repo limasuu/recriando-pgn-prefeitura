@@ -165,8 +165,37 @@ header a{
     padding: 0 50px 0 50px;
 }
 /* --------------------------------------------------------- */
-.nav-secundaria{border:1px solid RED;background-color: coral;
+.nav-secundaria, .aside1, .aside2, .aside3{ 
+    margin-top: 30px;   
+}
+
+.nav-secundaria, .aside1, .aside2{ 
+    display: flex;
+    justify-content: end; 
+
+    margin-right: 20px;
+    margin-left: 50px; 
+}
+
+.nav-secundaria{
     grid-area: nav2;
+}
+
+.nav-secundaria li{    
+    padding: 5px 20px 5px 15px;
+    border-bottom: 1px solid var(--cinza-escuro2);
+}
+
+.nav-secundaria a{
+    color: var(--azul-escuro);
+    font-weight: 700;
+    transition: .4s;
+    font-size: smaller;
+}
+
+.nav-secundaria a:hover{
+    color: var(--azul-claro);
+    transition: .4s;
 }
 /* --------------------------------------------------------- */
 .aside1{border:1px solid RED;background-color: coral;
