@@ -385,3 +385,16 @@ footer{
     color: var(--cinza-escuro1);
     font-weight: 700;
 }
+
+.endereco-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.endereco-footer img{
+    padding: 10px;
+}
