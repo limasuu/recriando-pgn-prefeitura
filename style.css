@@ -344,6 +344,44 @@ main h3{
     opacity: 0.7;
 }
 /* --------------------------------------------------------- */
-footer{border:1px solid RED;background-color: coral;
+footer{
     grid-area: footer;  
+
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+
+    margin-top: 30px;
+}
+
+.links-footer{
+    background-color: var(--cinza-medio);
+    height: 45%;
+}
+
+.links-footer nav, .links-footer ul{   
+    height: 100%;    
+}
+
+.links-footer ul{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.links-footer a{
+    color: var(--cinza-escuro1);
+    transition: .4s;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.links-footer a:hover{
+    color: var(--azul-claro);
+    transition: .4s;
+}
+
+.links-footer li::before, .links-footer li::after{
+    content: " / ";
+    color: var(--cinza-escuro1);
+    font-weight: 700;
 }
